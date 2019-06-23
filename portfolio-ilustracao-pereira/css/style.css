@@ -9,6 +9,16 @@ body, ul, li, h1, p, a {
     padding: 0;
 }
 
+/* body {
+    opacity: 1;
+    transition: 3s opacity;
+  }
+  
+  body.fade {
+      opacity: 0;
+      transition: none;
+  } */
+
 li {
     list-style: none;
 }
@@ -107,4 +117,26 @@ footer p {
 
 .container-icon a {
     padding: 20px;
+}
+
+/*sobre*/
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil img {
+    margin-top: 10px;
+}
+
+.perfil p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125em;
+    max-width: 630px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }

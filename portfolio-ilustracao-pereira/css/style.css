@@ -10,11 +10,10 @@ body, ul, li, h1, p, a {
 }
 
 /* body {
-    opacity: 1;
-    transition: 1s opacity;
-  }
+    opacity: 0;
+  } */
   
-  body.fade {
+  /* body.fade {
       opacity: 0;
       transition: none;
   } */
@@ -216,6 +215,7 @@ form textarea:focus {
     margin-top: 20px;
     float: right;
     margin-bottom: 80px;
+    cursor: pointer;
 }
 
 .btn button:hover {

@@ -8,15 +8,27 @@
 
 // $('body').css('display', 'none');
 
-$.ajax("index.html")
-.done(function() {
-   $('nav ul li a').click(function() {
-       var href = $(this).attr('href');
-    //    console.log(href);
+// $("nav ul li a").click(function(event){
+//    event.preventDefault();
+//    console.log(event.target.href);
+//    // $.ajax({
+//    //    url: "sobre.html",
+//    //    sucess: function(result){
+//    //       $(".container-geral").html(result);
+//    //       console.log(result)
+//    //    }
+//    // })
+// })
 
-    $('.container').hide().load(href).fadeIn(1000);
-   })
-})
+// $.ajax("index.html")
+// .done(function() {
+//    $('nav ul li a').click(function() {
+//        var href = $(this).attr('href');
+//     //    console.log(href);
+
+//     $('.container').hide().load(href).fadeIn(1000);
+//    })
+// })
 
 // $.ajax("index.html")
 // .done(function(){

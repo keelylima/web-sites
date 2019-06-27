@@ -9,15 +9,6 @@ body, ul, li, h1, p, a {
     padding: 0;
 }
 
-/* body {
-    opacity: 0;
-  } */
-  
-  /* body.fade {
-      opacity: 0;
-      transition: none;
-  } */
-
 li {
     list-style: none;
 }
